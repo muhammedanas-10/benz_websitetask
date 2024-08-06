@@ -1,0 +1,181 @@
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.container img{
+    align-items: center;
+    object-fit: contain;
+    display: block;
+ height: 100%;
+ width: 100%;
+ overflow-clip-margin: content-box;
+ overflow: clip;
+
+ 
+}
+.bg-custom-color {
+    background-color:#000000;
+    margin-top: 0%;
+   
+  }
+
+.containers {
+      background-color: #000;
+      color: white;
+      padding: 10px 0;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  
+  .nav-link:hover {
+    color: #cccccc;
+  }
+  
+  @media (max-width: 768px) {
+    .row {
+      flex-wrap: wrap;
+    }
+  }
+  .bg-black {
+    background-color: #000000 !important;
+  }
+  .benz h1{
+    width: 50px;
+  }
+.one{
+  font-family: "Shadows Into Light", cursive;
+    font-size: 35px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.one img{
+    width: 400px;
+    height: 500px;
+    transition: transform .2s;
+}
+.one img:hover {
+    transform: scale(1.1);
+}
+
+ 
+   
+  .two{
+    font-family: "Shadows Into Light", cursive;
+    font-size: 35px;
+    margin-left: 800px;
+   margin-top: -300px;
+  }
+  .two img{
+    width: 400px;
+    height: 200px;
+    transition: transform .2s;
+  }
+  .two img:hover {
+    transform: scale(1.1);
+  }
+  
+  .three{
+    font-family: "Shadows Into Light", cursive;
+    font-size: 25px;
+    margin-top: 150px; 
+    margin-left: 300px;
+  }
+  .three img{
+    width: 400px;
+    height: 200px;
+    transition: transform .2s;
+  }
+
+  .three img:hover {
+    transform: scale(1.1);
+  }
+  .four{
+    font-family: "Shadows Into Light", cursive;
+    font-size: 25px;
+    margin-left: 800px;
+    margin-top: -150px
+  }
+    .four img{
+      width: 500px;
+      height: 700px;
+      transition: transform .2s;
+    }
+
+    .four img:hover {
+      transform: scale(1.1);
+    }
+    .five{
+      font-family: "Shadows Into Light", cursive;
+        font-size: 35px;
+        margin-top: -400px;
+        margin-left: -500px;
+    }
+    .five img{
+        width: 400px;
+        height: 550px;
+        transition: transform .2s;
+        
+
+    }
+
+    .five img:hover {
+        transform: scale(1.1);
+    }
+
+    body {
+        background-color: black;
+      }
+      
+      .display-4 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+      }
+      
+      @media (max-width: 768px) {
+        .display-4 {
+          font-size: 2.5rem;
+        }
+      }
+      .btn{
+        transition: background-color 0.3s ease;
+      }
+      .btn:hover {
+        background-color: #007bff;
+      }
+
+      .button{
+        border-radius: 20px ;
+        transition: background-color 0.3s ease;
+      }
+      .button:hover {
+        background-color: #007bff;
+      }
+      
+      footer {
+        border-top: 1px solid #e0e0e0;
+      }
+      
+      .bi {
+        transition: color 0.3s ease;
+      }
+      
+      .bi:hover {
+        color: #666;
+      }
+      .footer{
+        width: 600px;
+      }
+    .logos{
+      margin-left: 400px;
+    }
+    .fool{
+      float: right;
+    }
+   
